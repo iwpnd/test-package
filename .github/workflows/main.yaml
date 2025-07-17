@@ -28,6 +28,6 @@ jobs:
         uses: cycjimmy/semantic-release-action@v4
         with:
           extends: |
-            @iwpnd/semantic-release-config
+            github:iwpnd/semantic-release-config
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
