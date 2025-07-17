@@ -21,6 +21,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Install shareable config
+        run: npm install -g github:iwpnd/semantic-release-config
+
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@v4
         with:
