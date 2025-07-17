@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: say hello
-        uses: iwpnd/github-actions/actions/hello-world@v1.0.0
+        uses: iwpnd/github-actions/actions/hello-world@v1.0.1
         with:
           name: Ben
 
