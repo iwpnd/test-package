@@ -37,5 +37,6 @@ jobs:
         with:
           extends: |
             github:@iwpnd/semantic-release-config#semver:1.0.6
+            conventional-changelog-conventionalcommits
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
