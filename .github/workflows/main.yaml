@@ -33,7 +33,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Semantic Release
-        uses: iwpnd/semantic-release-action
+        uses: iwpnd/semantic-release-action@v1.0.0
         with:
           extends: |
             github:@iwpnd/semantic-release-config#semver:1.0.5
