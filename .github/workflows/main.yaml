@@ -27,7 +27,7 @@ jobs:
     permissions:
       id-token: write
       contents: write
-    if: github.event_name == 'bla' # TODO: re-enable if issue#252 closed
+    if: github.event_name == 'push' # TODO: re-enable if issue#252 closed
     steps:
       - name: Checkout
         uses: actions/checkout@v4
