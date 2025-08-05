@@ -36,6 +36,6 @@ jobs:
         uses: iwpnd/semantic-release-action@v1.0.1
         with:
           extends: |
-            github:@iwpnd/semantic-release-config#semver:1.0.5
+            github:@iwpnd/semantic-release-config#semver:1.0.6
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
